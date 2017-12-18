@@ -24,12 +24,11 @@
                                 <color key="backgroundColor" red="1" green="0.28544039215663142" blue="0.21094265083886343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                <state key="normal" title="😀">
+                                <state key="normal" title="🙉">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="showMessageButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qX3-T9-fqu"/>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="prK-VE-6Ea"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pnr-Up-3rE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H11-2j-52O">
@@ -39,8 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="😆"/>
                                 <connections>
-                                    <action selector="showMessageButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Vv-c1-3dQ"/>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vbi-lA-vD1"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zxm-iC-aM1"/>
                                 </connections>
                             </button>
                         </subviews>

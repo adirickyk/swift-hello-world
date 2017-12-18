@@ -20,10 +20,27 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func showMessageButton(sender: UIButton) {
-        let alertController = UIAlertController(title: "Welcome to MY First App", message: "Hello World", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler: nil))
-        present(alertController, animated: true, completion: nil)
+    @IBAction func showMessage(sender: UIButton) {
+        // Initialize the dictionary for the emoji icons
+        // If you forgot how to do it, refer to the previous chapter
+        // Fill in the code below
+        
+        
+        // The sender is the button that is tapped by the user.
+        // Here we store the sender in the selectedButton constant
+        let selectedButton = sender
+        
+        if let wordToLookup = selectedButton.titleLabel?.text{
+            // Get the meaning of the emoji from the dictionary
+            // Fill in the code below
+            
+            
+            let alertController = UIAlertController(title: "Meaning", message: wordToLookup, preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler: nil))
+            present(alertController, animated: true, completion: nil)
+            
+        }
+        
     }
 
 
